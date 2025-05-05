@@ -16,7 +16,7 @@ public class StudentService {
     private final StudentRepository studentRepository;
 
     public void saveStudent(Student student){
-        int age;
+        int age=0;
         if(student != null){
              age=Period.between(student.getDob(), LocalDate.now()).getYears();
             if(age<18){
