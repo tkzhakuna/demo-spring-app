@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: demo
+
+server:
+  servlet:
+    port: 9090
